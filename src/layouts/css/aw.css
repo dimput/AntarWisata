@@ -1,0 +1,12 @@
+@import '~antd/dist/antd.css';
+
+@media screen and (min-width: @screen-sm-min) {
+  .hide-desktop {
+    display: none;
+  }
+}
+@media screen and (max-width: @screen-sm) {
+  .hide-mobile {
+    display: none;
+  }
+}
