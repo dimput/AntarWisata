@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import { Avatar, Icon, Button, Row, Col, Collapse, Input } from 'antd';
 import Mobile from './img/mobile-screen.png';
+import MalioboroStreet from './img/malioboro.jpg';
 import PlayStoreIcon from './img/hehe.png';
-import homepng from './img/home.png';
 import splashpng from './img/splash.png';
 import detailpng from './img/detail.png';
-import wisatapng from './img/wisata.png';
-import MalioboroStreet from './img/malioboro.jpg';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Bg from './img/subscribe-bg.jpg';
+import Maspanjul from './img/maspanjul.PNG';
 const { Panel } = Collapse;
 const { Search } = Input;
 
@@ -18,142 +17,6 @@ class Home extends Component {
     render() {
         return (
             <div tyle={{ backgroundColor: "#fff" }}>
-
-                <div className="isi" style={{ fontSize: "50px", backgroundColor: "black", height: 800, backgroundImage: "url('http://borobudurpark.com/wp-content/uploads/2017/02/borobudur1-1024x683.jpg')", backgroundSize: "cover" }}>
-                    <div style={{ width: "100%", height: "100%", backgroundImage: "linear-gradient(45deg, rgba(72,44,191,1) 0%, rgba(106,198,240,1)100%)", opacity: 0.8 }}>
-                    </div>
-                    <div style={{ position: "absolute", zIndex: "2", top: "150px", width: "100%" }}>
-                        <Row>
-                            <Col xs={0} sm={0} md={0} lg={0} xl={10}>
-                                <div style={{ float: "right", width: 400 }}>
-                                    <div style={{
-                                        backgroundImage: 'url(' + Mobile + ')',
-                                        backgroundRepeat: "no-repeat",
-                                        minHeight: 800,
-                                        paddingTop: 80,
-                                        paddingLeft: 25,
-                                        filter: "drop-shadow(0px 0px 10px rgba(0,0,0,0.2))"
-                                    }}>
-                                        <div style={{ backgroundColor: "green", width: 323, height: 570, overflow: "hidden" }}>
-                                            <img alt="" src={homepng} style={{ width: "100%" }} />
-                                        </div>
-                                    </div>
-                                </div>
-                            </Col>
-                            <Col xs={12} sm={20} md={20} lg={20} xl={12}>
-                                <div style={{ color: "#FFF", marginTop: 100, marginLeft: 50 }}>
-                                    <div style={{ fontSize: "54px" }}>
-                                        Dapatkan Pengalaman Wisata terbaikmu dengan AntarWisata
-                                    </div>
-                                    <div style={{ fontSize: "18px", marginTop: "35px" }}>
-                                        Temukan surga surga tersembunyi yang tersebar di Daerah Istimewa Yogyakarta. Buatlah pengalaman baru anda di tempat yang belum pernah anda kunjungi. Mulai perjalanan anda sekarang!.
-                                    </div>
-                                    <Button shape="round" icon="download" size="large" style={{ fontWeight: 700, color: "blue", textTransform: "uppercase", letterSpacing: "3px", fontSize: "14px" }}>
-                                        Download App
-                </Button>
-                                </div>
-                            </Col>
-                        </Row>
-                    </div>
-                </div >
-                <div style={{ marginTop: 220, textAlign: "center" }}>
-                    <div style={{ fontSize: "50px", color: "blue", marginBottom: "20px" }}>
-                        <Icon type="car" theme="filled" />
-                    </div>
-                    <div>
-                        <div style={{ width: 350, margin: "0 auto" }}>
-                            <hr />
-                        </div>
-                        <h3 style={{ fontWeight: "700", letterSpacing: "1px", textTransform: "uppercase", backgroundColor: "#FFF", width: "230px", margin: "0 auto", marginTop: "-20px" }}>About Antar Wisata</h3>
-                        <div style={{ fontSize: "30px",width:"80%",margin:"0 auto",marginTop: "35px" }}>
-                            Antar Wisata adalah sebuah aplikasi yang membantu perjalananmu berwisata di daerah Yogyakarta.
-                        </div>
-                        <div style={{ width:"80%",margin:"0 auto", marginTop: "35px", marginBottom: "200px", fontSize: "16px"}}>
-                            Menikmati perjalanan dengan modal transportasi berpaket, anti riber, harga sesuai dompet.
-                        </div>
-                    </div>
-                </div>
-                <div style={{ backgroundColor: "#f5f6fe", minHeight: 570 }}>
-                    <Row>
-                        <Col xs={2} sm={4} md={6} lg={8} xl={11} style={{ paddingLeft: "100px", paddingTop: "120px", paddingRight: "50px" }}>
-                            <div style={{ fontSize: "18px", fontWeight: "700px" }}>
-                                OUR PROGRESS
-            </div>
-                            <div style={{ margin: "30px auto", fontSize: "40px" }}>
-                                Grat Application Ever
-            </div>
-                            <div style={{ fontSize: "16px", fontWeight: "300px", lineHeight: "35px" }}>
-                                Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor incididunt ut labore et laborused sed do eiusmod tempor incididunt ut labore et laborused.
-            </div>
-                            <div style={{ marginTop: "50px" }}>
-                                <Button size='large' style={{ textTransform: "uppercase", display: "absolute", borderRadius: "50px", letterSpacing: "2px", padding: "20px 40px", height: "auto", backgroundColor: "rgba(72,44,191,1)", color: "#fff", border: "none", fontWeight: "bold", fontSize: "14px" }}>
-                                    Learn More
-              </Button>
-                            </div>
-                        </Col>
-                        <Col xs={0} sm={4} md={6} lg={8} xl={13}
-                            style={{
-                                backgroundColor: "red",
-                                height: "570px",
-                                backgroundImage: "url(" + MalioboroStreet + ")",
-                                backgroundRepeat: "no-repeat",
-                                backgroundSize: "cover",
-                            }}>
-                            <div style={{ height: "100%", width: "100%", backgroundImage: "linear-gradient(45deg, rgba(72,44,191,1) 0%, rgba(106,198,240,1)100%)", opacity: 0.8 }}>
-                            </div>
-                            <Row>
-                                <Col xs={2} sm={4} md={6} lg={8} xl={10}>
-                                    <div style={{ width: 400, marginLeft: "70px" }}>
-                                        <div style={{
-                                            backgroundImage: 'url(' + Mobile + ')',
-                                            backgroundRepeat: "no-repeat",
-                                            minHeight: 800,
-                                            paddingTop: 80,
-                                            paddingLeft: 25,
-                                            marginTop: "-650px",
-                                            filter: "drop-shadow(0px 0px 10px rgba(0,0,0,0.2))"
-                                        }}>
-                                            <div style={{ backgroundColor: "green", width: 323, height: 570, overflow: "hidden" }}>
-                                                <img alt="" src={wisatapng} style={{ width: "100%" }} />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </Col>
-                            </Row>
-                        </Col>
-                    </Row>
-                </div>
-                <div style={{ minHeight: 570, marginTop: "250px", marginBottom: "100px" }}>
-                    <Row>
-                        <Col xs={2} sm={4} md={6} lg={8} xl={12}
-                            style={{
-                                backgroundColor: "red",
-                                height: "570px",
-                                backgroundImage: "url(" + MalioboroStreet + ")",
-                                backgroundRepeat: "no-repeat",
-                                backgroundSize: "cover",
-                            }}>
-                            <div style={{ height: "100%", width: "100%", backgroundImage: "linear-gradient(45deg, rgba(72,44,191,1) 0%, rgba(106,198,240,1)100%)", opacity: 0.8 }}>
-                            </div>
-                        </Col>
-                        <Col xs={2} sm={4} md={6} lg={8} xl={11} style={{ paddingLeft: "100px", paddingTop: "120px", paddingRight: "50px" }}>
-                            <div style={{ fontSize: "18px", fontWeight: "700px" }}>
-                                OUR PROGRESS
-            </div>
-                            <div style={{ margin: "30px auto", fontSize: "40px" }}>
-                                Grat Application Ever
-            </div>
-                            <div style={{ fontSize: "16px", fontWeight: "300px", lineHeight: "35px" }}>
-                                Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor incididunt ut labore et laborused sed do eiusmod tempor incididunt ut labore et laborused.
-            </div>
-                            <div style={{ marginTop: "50px" }}>
-                                <Button size='large' style={{ textTransform: "uppercase", display: "absolute", borderRadius: "50px", letterSpacing: "2px", padding: "20px 40px", height: "auto", backgroundColor: "rgba(72,44,191,1)", color: "#fff", border: "none", fontWeight: "bold", fontSize: "14px" }}>
-                                    Learn More
-              </Button>
-                            </div>
-                        </Col>
-                    </Row>
-                </div>
                 <div style={{ backgroundColor: "#5e87fc", height: "835px", padding: "0 120px", color: "#fff", paddingTop: "120px" }}>
                     <div style={{ width: 250, margin: "0 auto" }}>
                         <hr />
@@ -323,32 +186,32 @@ class Home extends Component {
                             swipeable
                         >
                             <div style={{ padding: "20px 30px" }}>
-                                <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
+                                <Avatar src="https://scontent-sin2-1.cdninstagram.com/vp/d47b66a9ca16e774b3833a3f401a355c/5DC9F13B/t51.2885-19/s320x320/49663048_2388353378151304_3957485335864147968_n.jpg?_nc_ht=scontent-sin2-1.cdninstagram.com&_nc_cat=104" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
                                 <div style={{ backgroundColor: "#FFF", marginTop: "-40px", paddingTop: "50px", paddingLeft: "35px", paddingBottom: "20px", boxShadow: "0 0 30px -5px rgba(0,0,0,.1)" }}>
-                                    <div><h3>Dimas Putra</h3></div>
+                                    <div><h3>Muh Catur Putra</h3></div>
                                     <div><i>Art Dirrector</i></div>
                                     <div style={{ marginTop: "10px" }}>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</div>
                                 </div>
                             </div>
                             <div style={{ padding: "20px 30px" }}>
-                                <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
+                                <Avatar src="https://scontent-sin2-1.cdninstagram.com/vp/8a02ef82c0356e5e87ba5c8ab3843613/5DB3C500/t51.2885-19/s320x320/10890789_1686984951538669_1514833387_a.jpg?_nc_ht=scontent-sin2-1.cdninstagram.com&_nc_cat=101" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
                                 <div style={{ backgroundColor: "#FFF", marginTop: "-40px", paddingTop: "50px", paddingLeft: "35px", paddingBottom: "20px", boxShadow: "0 0 30px -5px rgba(0,0,0,.1)" }}>
-                                    <div><h3>Dimas Putra</h3></div>
+                                    <div><h3>Dimas Saragihsitio</h3></div>
                                     <div><i>Art Dirrector</i></div>
                                     <div style={{ marginTop: "10px" }}>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</div>
                                 </div>
                             </div>
                             <div style={{ padding: "20px 30px" }}>
-                                <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
+                                <Avatar src="https://scontent-sin2-1.cdninstagram.com/vp/9c91ae009f06a76c6cc45bf606904380/5DB9BB65/t51.2885-15/sh0.08/e35/p640x640/59535441_2415699905386003_477437286519901663_n.jpg?_nc_ht=scontent-sin2-1.cdninstagram.com&_nc_cat=107" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
                                 <div style={{ backgroundColor: "#FFF", marginTop: "-40px", paddingTop: "50px", paddingLeft: "35px", paddingBottom: "20px", boxShadow: "0 0 30px -5px rgba(0,0,0,.1)" }}>
-                                    <div><h3>Dimas Putra</h3></div>
+                                    <div><h3>Evelin Kharisma Sari</h3></div>
                                     <div><i>Art Dirrector</i></div>
                                     <div style={{ marginTop: "10px" }}>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</div>
                                 </div>
                             </div><div style={{ padding: "20px 30px" }}>
-                                <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
+                                <Avatar src={Maspanjul} style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
                                 <div style={{ backgroundColor: "#FFF", marginTop: "-40px", paddingTop: "50px", paddingLeft: "35px", paddingBottom: "20px", boxShadow: "0 0 30px -5px rgba(0,0,0,.1)" }}>
-                                    <div><h3>Dimas Putra</h3></div>
+                                    <div><h3>Zulfa Kurniawan Shafyanta</h3></div>
                                     <div><i>Art Dirrector</i></div>
                                     <div style={{ marginTop: "10px" }}>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</div>
                                 </div>

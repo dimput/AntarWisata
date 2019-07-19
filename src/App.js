@@ -8,11 +8,19 @@ import Portfolio from './layouts/Portfolio';
 import Footers from './layouts/Footers';
 import DaftarForm from './layouts/Daftar';
 import LoginForm from './layouts/Login';
+import Header from './layouts/Header';
+import About from './layouts/About';
+import Progress from './layouts/Progress';
+import Progress2 from './layouts/Progress2';
 
 function App() {
   return (
     <BrowserRouter>
       <Navbar/>
+      <Header/>
+      <About/>
+      <Progress/>
+      <Progress2/>
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route path="/contact" component={Contact}/>
