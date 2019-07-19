@@ -1,10 +1,10 @@
 import React , { Component } from 'react';
 import {Button ,Row, Col, Icon} from 'antd';
-import wisatapng from './img/wisata.png';
+import wisatapng from './img/Search.png';
 import MalioboroStreet from './img/malioboro.jpg';
 import Mobile from './img/mobile-screen.png';
 
-class Footers extends Component {
+class Progress extends Component {
     state = {  }
     render() { 
         return ( 
@@ -12,13 +12,13 @@ class Footers extends Component {
                     <Row>
                         <Col xs={2} sm={4} md={6} lg={8} xl={11} style={{ paddingLeft: "100px", paddingTop: "120px", paddingRight: "50px" }}>
                             <div style={{ fontSize: "18px", fontWeight: "700px" }}>
-                                OUR PROGRESS
+                                YUK WISATA !
             </div>
                             <div style={{ margin: "30px auto", fontSize: "40px" }}>
-                                Grat Application Ever
+                                Berwisata Dengan Kami 
             </div>
                             <div style={{ fontSize: "16px", fontWeight: "300px", lineHeight: "35px" }}>
-                                Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor incididunt ut labore et laborused sed do eiusmod tempor incididunt ut labore et laborused.
+                                Antar Wisata memudahkanmu untuk mengisi liburan di Yogyakarta, kunjungi berbagai destinasi wisata yang kamu inginkan tanpa memikirkan transportasi dan biaya yang mahal.                   
             </div>
                             <div style={{ marginTop: "50px" }}>
                                 <Button size='large' style={{ textTransform: "uppercase", display: "absolute", borderRadius: "50px", letterSpacing: "2px", padding: "20px 40px", height: "auto", backgroundColor: "rgba(72,44,191,1)", color: "#fff", border: "none", fontWeight: "bold", fontSize: "14px" }}>
@@ -63,4 +63,4 @@ class Footers extends Component {
     }
 }
  
-export default Footers;
+export default Progress;

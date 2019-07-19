@@ -24,14 +24,14 @@ class Progress2 extends Component {
                         OUR PROGRESS
             </div>
                     <div style={{ margin: "30px auto", fontSize: "40px" }}>
-                        Grat Application Ever
+                        Antar Wisata
             </div>
                     <div style={{ fontSize: "16px", fontWeight: "300px", lineHeight: "35px" }}>
-                        Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor incididunt ut labore et laborused sed do eiusmod tempor incididunt ut labore et laborused.
+                        Dibuat oleh anak magang yang masi banyak perlu untuk belajar dan banyak kekurangan disana sini. Menghasilkan suatu dedikasi yaitu Aplikasi Antar Wisata. yang di buat untuk memudahkan wisatawan berkeliling Jogja.
             </div>
                     <div style={{ marginTop: "50px" }}>
                         <Button size='large' style={{ textTransform: "uppercase", display: "absolute", borderRadius: "50px", letterSpacing: "2px", padding: "20px 40px", height: "auto", backgroundColor: "rgba(72,44,191,1)", color: "#fff", border: "none", fontWeight: "bold", fontSize: "14px" }}>
-                            Learn More
+                            Learn More.
             </Button>
                     </div>
                 </Col>
