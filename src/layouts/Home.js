@@ -9,6 +9,10 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Bg from './img/subscribe-bg.jpg';
 import Maspanjul from './img/maspanjul.PNG';
+import Header from './Header';
+import About from './About';
+import Progress from './Progress';
+import Progress2 from './Progress2';
 const { Panel } = Collapse;
 const { Search } = Input;
 
@@ -16,7 +20,11 @@ class Home extends Component {
     state = {}
     render() {
         return (
-            <div tyle={{ backgroundColor: "#fff" }}>
+            <div tyle={{ backgroundColor: "#fff" }}>           
+      <Header/>
+      <About/>
+      <Progress/>
+      <Progress2/>
                 <div style={{ backgroundColor: "#5e87fc", height: "835px", padding: "0 120px", color: "#fff", paddingTop: "120px" }}>
                     <div style={{ width: 250, margin: "0 auto" }}>
                         <hr />
@@ -219,7 +227,14 @@ class Home extends Component {
                                 <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
                                 <div style={{ backgroundColor: "#FFF", marginTop: "-40px", paddingTop: "50px", paddingLeft: "35px", paddingBottom: "20px", boxShadow: "0 0 30px -5px rgba(0,0,0,.1)" }}>
                                     <div><h3>Dimas Putra</h3></div>
-                                    <div><i>Art Dirrector</i></div>
+                                    <div><i>Back End</i></div>
+                                    <div style={{ marginTop: "10px" }}>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</div>
+                                </div>
+                            </div><div style={{ padding: "20px 30px" }}>
+                                <Avatar src="https://scontent-sin2-1.cdninstagram.com/vp/0296659797ddae4946dfc7df3ce23262/5DAE17AE/t51.2885-19/s320x320/62144651_393952937874705_8214271605258321920_n.jpg?_nc_ht=scontent-sin2-1.cdninstagram.com&_nc_cat=109" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
+                                <div style={{ backgroundColor: "#FFF", marginTop: "-40px", paddingTop: "50px", paddingLeft: "35px", paddingBottom: "20px", boxShadow: "0 0 30px -5px rgba(0,0,0,.1)" }}>
+                                    <div><h3>Mutiara Fitri </h3></div>
+                                    <div><i>Front End</i></div>
                                     <div style={{ marginTop: "10px" }}>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</div>
                                 </div>
                             </div>
