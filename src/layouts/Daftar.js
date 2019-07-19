@@ -1,9 +1,20 @@
 import React , { Component } from 'react';
+import { signUp } from '../store/actions/authActions'
 import { Form, Icon, Input, Button, Checkbox, Row } from 'antd';
+import { connect } from 'react-redux'
 
 
 class Daftar extends Component {
     state = {  }
+    handleSubmit = e => {
+    e.preventDefault();
+    this.props.form.validateFields((err, values) => {
+      if (!err) {
+        console.log('Received values of form: ', values);
+        this.props.signUp(values);
+      }
+    });
+  };
     render() {
         const { getFieldDecorator } = this.props.form;
 
@@ -16,12 +27,12 @@ class Daftar extends Component {
                         </h3>
                         <Form onSubmit={this.handleSubmit} className="login-form" style={{ maxWidth: "300px",margin:"0px auto" }}>
                             <Form.Item>
-                                {getFieldDecorator('username', {
-                                    rules: [{ required: true, message: 'Please input your username!' }],
+                                {getFieldDecorator('email', {
+                                    rules: [{ required: true, message: 'Please input your email!' }],
                                 })(
                                     <Input
-                                        prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
-                                        placeholder="Username"
+                                        prefix={<Icon type="mail" style={{ color: 'rgba(0,0,0,.25)' }} />}
+                                        placeholder="Email"
                                     />,
                                 )}
                             </Form.Item>
@@ -48,9 +59,9 @@ class Daftar extends Component {
                                 )}
                             </Form.Item>
                             <Form.Item>
-                                {getFieldDecorator('remember', {
+                                {getFieldDecorator('agree', {
                                     valuePropName: 'checked',
-                                    initialValue: true,
+                                    initialValue: false,
                                 })(<Checkbox>Setuju dengan Kebijakan dan Peraturan</Checkbox>)}
                                 <Button type="primary" htmlType="submit" className="login-form-button" style={{width:"100%",letterSpacing:"2px",textTransform:"uppercase",fontWeight:"700",backgroundImage:"linear-gradient(45deg, rgba(72,44,191,1) 0%, rgba(106,198,240,1)100%)"}}>
                                     Daftar
@@ -63,5 +74,12 @@ class Daftar extends Component {
          );
     }
 }
+
+const mapDispatchToProps = (dispatch)=> {
+    return {
+      signUp: (creds) => dispatch(signUp(creds))
+    }
+  }
+
 const DaftarForm = Form.create({ name: 'normal_login' })(Daftar);
-export default DaftarForm;
+export default connect(null,mapDispatchToProps)(DaftarForm)
