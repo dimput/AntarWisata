@@ -1,5 +1,6 @@
 import React , { Component } from 'react';
 import {Layout ,Row, Col, Icon} from 'antd';
+import './css/footer.css';
 const { Footer  } = Layout;
 
 class Footers extends Component {
@@ -9,20 +10,17 @@ class Footers extends Component {
             <div>
                 <Footer style={{ textAlign: 'center', borderTop: "2px solid Blue" }}>
                     <Row>
-                        <Col span={12} style={{ textAlign: "left", fontSize: '16px', color: "#8790af" }}>
-                            Antar Wisata ©2019 | <br />
-                            <span>Made with <Icon type="heart" theme="twoTone" twoToneColor="#eb2f96" /> by Antar Wisata</span>
+                        <Col md={12} style={{ fontSize: '16px', color: "#8790af" }} className="copyright">
+                            Antar Wisata ©2019 <br />
+                            {/* <span>Made with <Icon type="heart" theme="twoTone" twoToneColor="#eb2f96" /> by Antar Wisata</span> */}
                         </Col>
-                        <Col span={12} style={{ fontSize: '16px', color: "#8790af" }}>
-                            <Row type="flex" justify="end" >
-                                <Col span={4}>Kontak Kami</Col>
-                                <Col span={3}>Layanan</Col>
-                                <Col span={3}>Blog</Col>
-                                <Col span={3}>FAQ</Col>
-                                <Col span={4}>Kontak Kami</Col>
-
-                            </Row>
-                        </Col>
+                        <ul className="footer-list">
+                            <li>Tentang Kami</li>
+                            <li>Layanan</li>
+                            <li>Blog</li>
+                            <li>FAQ</li>
+                            <li>Kontak Kami</li>
+                        </ul>
                     </Row>
                 </Footer>
             </div>

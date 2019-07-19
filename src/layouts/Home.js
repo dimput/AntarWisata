@@ -65,10 +65,10 @@ class Home extends Component {
                             <hr />
                         </div>
                         <h3 style={{ fontWeight: "700", letterSpacing: "1px", textTransform: "uppercase", backgroundColor: "#FFF", width: "230px", margin: "0 auto", marginTop: "-20px" }}>About Antar Wisata</h3>
-                        <div style={{ marginTop: "35px", padding: "0 230px", fontSize: "30px" }}>
+                        <div style={{ fontSize: "30px",width:"80%",margin:"0 auto",marginTop: "35px" }}>
                             Antar Wisata adalah sebuah aplikasi yang membantu perjalananmu berwisata di daerah Yogyakarta.
                         </div>
-                        <div style={{ marginTop: "35px", marginBottom: "200px", fontSize: "16px", padding: "0 230px" }}>
+                        <div style={{ width:"80%",margin:"0 auto", marginTop: "35px", marginBottom: "200px", fontSize: "16px"}}>
                             Menikmati perjalanan dengan modal transportasi berpaket, anti riber, harga sesuai dompet.
                         </div>
                     </div>
@@ -91,7 +91,7 @@ class Home extends Component {
               </Button>
                             </div>
                         </Col>
-                        <Col xs={2} sm={4} md={6} lg={8} xl={13}
+                        <Col xs={0} sm={4} md={6} lg={8} xl={13}
                             style={{
                                 backgroundColor: "red",
                                 height: "570px",
@@ -204,7 +204,7 @@ class Home extends Component {
                                 </Col>
                             </Row>
                         </Col>
-                        <Col md={8} style={{ textAlign: "center" }}>
+                        <Col xs={0} md={8} style={{ textAlign: "center" }}>
                             <Row style={{ width: 300, margin: "0 auto" }}>
                                 <Col xs={2} sm={4} md={6} lg={8} xl={10}>
                                     <div style={{ width: 300 }}>
@@ -523,8 +523,8 @@ class Home extends Component {
                     <br /><br /><br /><br /><br /><br /><br /><br />
                 </div>
                 <div style={{ minHeight: 500, backgroundImage: 'url(' + Bg + ')', backgroundRepeat: "no-repeat", paddingTop: "150px" }}>
-                    <div style={{ width: "500px", height: "250px", backgroundColor: "#fff", margin: "0 auto", borderRadius: "10px", marginBottom: "100px" }}>
-                        <div style={{ width: "400px", margin: " 0 auto", paddingTop: "70px" }}>
+                    <div style={{ maxWidth: "500px", height: "250px", backgroundColor: "#fff", paddingTop: "70px" , margin: "0 auto", borderRadius: "10px", marginBottom: "100px" }}>
+                        <div style={{ width: "80%", margin: " 0 auto"}}>
                             <h1 style={{ textAlign: "center", color: " #5e88fc" }}>  Subscribe for More Features</h1>
                             <Search
                                 placeholder="input search text"
@@ -551,17 +551,17 @@ class Home extends Component {
 
                     <Row>
                         {/* <Col span={20} offset={2} style={{ marginBottom: "150px" }}> */}
-                        <Col span={8}>
+                        <Col md={8}>
                             <div style={{ width: "75px", paddingTop: "3px", margin: "0px auto", height: "75px", backgroundImage: "linear-gradient(45deg, rgba(72,44,191,1) 0%, rgba(106,198,240,1)100%)", borderRadius: " 100px", textAlign: "center", border: "2px solid #fff" }}>
                                 <div style={{ border: "2px solid #fff", width: "65px", height: "65px", margin: "0px auto", borderRadius: "100%" }}>
                                     <Icon type="home" style={{ fontSize: "20px", paddingTop: "22px", color: "white" }} />
                                 </div>
                             </div>
-                            <div style={{ textAlign: "center", marginTop: " 30px" }}>
+                            <div style={{ textAlign: "center", marginTop: " 30px",padding:"0 20px" }}>
                                 <p>Jl. Amerta VI, Jombor Lor, <br /> Sinduadi, Kec. Mlati, Kabupaten Sleman, Yogyakarta</p>
                             </div>
                         </Col>
-                        <Col span={8}>
+                        <Col md={8}>
                             <div style={{ width: "75px", paddingTop: "3px", margin: "0px auto", height: "75px", backgroundImage: "linear-gradient(45deg, rgba(72,44,191,1) 0%, rgba(106,198,240,1)100%)", borderRadius: " 100px", textAlign: "center", border: "2px solid #fff" }}>
                                 <div style={{ border: "2px solid #fff", width: "65px", height: "65px", margin: "0px auto", borderRadius: "100%" }}>
                                     <Icon type="phone" style={{ fontSize: "20px", paddingTop: "22px", color: "white" }} />
@@ -571,7 +571,7 @@ class Home extends Component {
                                 <p>085274262088 <br /> 083821174711</p>
                             </div>
                         </Col>
-                        <Col span={8}>
+                        <Col md={8}>
                             <div style={{ width: "75px", paddingTop: "3px", margin: "0px auto", height: "75px", backgroundImage: "linear-gradient(45deg,rgba(72,44,191,1) 0%,rgba(106,198,240,1) 100%)", textAlign: "center", borderRadius: " 100px", border: "2px solid #fff" }}>
                                 <div style={{ border: "2px solid #fff", width: "65px", height: "65px", margin: "0px auto", borderRadius: "100%" }}>
                                     <Icon type="mail" style={{ fontSize: "20px", paddingTop: "22px", color: "white" }} />

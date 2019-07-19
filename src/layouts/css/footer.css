@@ -1,0 +1,23 @@
+.footer-list li {
+    float: right;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.footer-list li:hover {
+    border-bottom: 1px solid black;
+}
+.copyright {                                     
+    text-align:left;
+}
+
+@media (max-width: 576px) {
+    .copyright {
+      text-align:center;
+    }
+    .footer-list li {
+        width: 100%;
+    }
+}
