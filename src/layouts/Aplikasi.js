@@ -10,7 +10,7 @@ class Feature extends Component {
           
                 <div style={{ backgroundColor: "#5e87fc", minHeight: 570, paddingTop: "100px", paddingBottom: "50px", color: "white" }}>
                 <Row>
-                    <Col xs={2} sm={4} md={6} lg={8} xl={11}
+                    <Col xs={0} sm={0} md={0} lg={0} xl={11}
                         style={{
                             color: "white",
                             height: "570px"
@@ -38,7 +38,7 @@ class Feature extends Component {
                             </Col>
                         </Row>
                     </Col>
-                    <Col xs={2} sm={4} md={6} lg={8} xl={13} style={{ paddingLeft: "50px", paddingTop: "120px", paddingRight: "50px" }}>
+                    <Col xs={24} sm={24} md={24} lg={24} xl={13} style={{ paddingLeft: "50px", paddingTop: "120px", paddingRight: "50px" }}>
                         <div style={{ fontSize: "18px", fontWeight: "700px" }}>
                             OUR PROGRESS
         </div>

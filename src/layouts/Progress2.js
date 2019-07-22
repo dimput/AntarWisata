@@ -1,14 +1,15 @@
 import React , { Component } from 'react';
 import {Button,Row, Col, Icon} from 'antd';
 import MalioboroStreet from './img/malioboro.jpg';
+import './css/progress2.css';
 
 class Progress2 extends Component {
     state = {  }
     render() { 
         return ( 
-            <div style={{ minHeight: 570, marginTop: "250px", marginBottom: "100px" }}>
+            <div style={{ minHeight: 570, marginBottom: "100px",marginTop:"250px" }}>
             <Row>
-                <Col xs={2} sm={4} md={6} lg={8} xl={12}
+                <Col xs={0} sm={0} md={10} lg={12} xl={12}
                     style={{
                         backgroundColor: "red",
                         height: "570px",
@@ -19,7 +20,7 @@ class Progress2 extends Component {
                     <div style={{ height: "100%", width: "100%", backgroundImage: "linear-gradient(45deg, rgba(72,44,191,1) 0%, rgba(106,198,240,1)100%)", opacity: 0.8 }}>
                     </div>
                 </Col>
-                <Col xs={2} sm={4} md={6} lg={8} xl={11} style={{ paddingLeft: "100px", paddingTop: "120px", paddingRight: "50px" }}>
+                <Col className="progress2" xs={24} sm={24} md={14} lg={12} xl={11} style={{ paddingLeft: "100px", paddingRight: "50px" }}>
                     <div style={{ fontSize: "18px", fontWeight: "700px" }}>
                         OUR PROGRESS
             </div>

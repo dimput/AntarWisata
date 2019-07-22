@@ -9,7 +9,7 @@ class Feature extends Component {
         return ( 
             <div style={{ minHeight: 570, marginBottom: "150px" }}>
             <Row>
-                <Col xs={2} sm={4} md={6} lg={8} xl={12} style={{ paddingLeft: "100px", paddingTop: "120px", paddingRight: "50px" }}>
+                <Col xs={24} sm={24} md={12} lg={12} xl={12} style={{ paddingLeft: "100px", paddingTop: "120px", paddingRight: "50px" }}>
                                 <div style={{ fontSize: "18px", fontWeight: "700px" }}>
                                     OUR PROGRESS
                 </div>
@@ -28,7 +28,7 @@ class Feature extends Component {
 
 
 
-                <Col md={8} style={{ paddingTop: "120px" }}>
+                <Col md={12} style={{ paddingTop: "120px" }}>
                     <Row>
                         <Col span={24} style={{margin:"25px"}}>
                             <Col span={8} >

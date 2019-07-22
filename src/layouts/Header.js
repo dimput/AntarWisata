@@ -1,7 +1,7 @@
 
 
 import React , { Component } from 'react';
-
+import './css/header.css';
 import { Button, Row , Col } from 'antd';
 import homepng from './img/home.png';
 import Mobile from './img/mobile-screen.png';
@@ -30,9 +30,9 @@ class Header extends Component {
                                 </div>
                             </div>
                         </Col>
-                        <Col xs={12} sm={20} md={20} lg={20} xl={12}>
-                            <div style={{ color: "#FFF", marginTop: 100, marginLeft: 50 }}>
-                                <div style={{ fontSize: "54px" }}>
+                        <Col xs={24} sm={20} md={20} lg={20} xl={12}>
+                            <div style={{ color: "#FFF", marginLeft: 50 }} className="content-header">
+                                <div className="title-header">
                                     Dapatkan Pengalaman Wisata terbaikmu dengan AntarWisata
                                 </div>
                                 <div style={{ fontSize: "18px", marginTop: "35px" }}>
@@ -40,7 +40,7 @@ class Header extends Component {
                                 </div>
                                 <Button shape="round" icon="download" size="large" style={{ fontWeight: 700, color: "blue", textTransform: "uppercase", letterSpacing: "3px", fontSize: "14px" }}>
                                     Download App
-                </Button>
+                                </Button>
                             </div>
                         </Col>
                     </Row>

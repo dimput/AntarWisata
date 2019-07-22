@@ -21,15 +21,15 @@ class Home extends Component {
     state = {}
     render() {
         return (
-            <div tyle={{ backgroundColor: "#fff" }}>           
-      <Header/>
-      <About/>
-      <Progress/>
-      <Progress2/>
-      <Feature/>
-      <Client/>
-      <Aplikasi/>
-      <Progress3/>
+            <div tyle={{ backgroundColor: "#fff" }}>
+                <Header />
+                <About />
+                <Progress />
+                <Progress2 />
+                <Feature />
+                <Client />
+                <Aplikasi />
+                <Progress3 />
                 <div style={{ backgroundColor: "#f5f6fe", minHeight: 570, backgroundImage: "linear-gradient(45deg, rgba(72,44,191,1) 0%, rgba(106,198,240,1)100%)", color: "white" }}>
                     <Row>
                         <Col xs={2} sm={4} md={6} lg={8} xl={10}
@@ -117,8 +117,8 @@ class Home extends Component {
                     <br /><br /><br /><br /><br /><br /><br /><br />
                 </div>
                 <div style={{ minHeight: 500, backgroundImage: 'url(' + Bg + ')', backgroundRepeat: "no-repeat", paddingTop: "150px" }}>
-                    <div style={{ maxWidth: "500px", height: "250px", backgroundColor: "#fff", paddingTop: "70px" , margin: "0 auto", borderRadius: "10px", marginBottom: "100px" }}>
-                        <div style={{ width: "80%", margin: " 0 auto"}}>
+                    <div style={{ maxWidth: "500px", height: "250px", backgroundColor: "#fff", paddingTop: "70px", margin: "0 auto", borderRadius: "10px", marginBottom: "100px" }}>
+                        <div style={{ width: "80%", margin: " 0 auto" }}>
                             <h1 style={{ textAlign: "center", color: " #5e88fc" }}>  Subscribe for More Features</h1>
                             <Search
                                 placeholder="input search text"
@@ -151,7 +151,7 @@ class Home extends Component {
                                     <Icon type="home" style={{ fontSize: "20px", paddingTop: "22px", color: "white" }} />
                                 </div>
                             </div>
-                            <div style={{ textAlign: "center", marginTop: " 30px",padding:"0 20px" }}>
+                            <div style={{ textAlign: "center", marginTop: " 30px", padding: "0 20px" }}>
                                 <p>Jl. Amerta VI, Jombor Lor, <br /> Sinduadi, Kec. Mlati, Kabupaten Sleman, Yogyakarta</p>
                             </div>
                         </Col>
@@ -178,7 +178,6 @@ class Home extends Component {
                         {/* </Col>  */}
                     </Row>
                 </div>
-
             </div>
         );
     }

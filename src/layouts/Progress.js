@@ -4,13 +4,14 @@ import wisatapng from './img/Search.png';
 import MalioboroStreet from './img/malioboro.jpg';
 import Mobile from './img/mobile-screen.png';
 
+
 class Progress extends Component {
     state = {  }
     render() { 
         return ( 
             <div style={{ backgroundColor: "#f5f6fe", minHeight: 570 }}>
                     <Row>
-                        <Col xs={2} sm={4} md={6} lg={8} xl={11} style={{ paddingLeft: "100px", paddingTop: "120px", paddingRight: "50px" }}>
+                        <Col xs={24} sm={24} md={24} lg={12} xl={11} style={{ paddingLeft: "100px", paddingTop: "120px", paddingRight: "50px" }}>
                             <div style={{ fontSize: "18px", fontWeight: "700px" }}>
                                 YUK WISATA !
             </div>
@@ -26,7 +27,7 @@ class Progress extends Component {
               </Button>
                             </div>
                         </Col>
-                        <Col xs={0} sm={4} md={6} lg={8} xl={13}
+                        <Col xs={0} sm={0} md={0} lg={8} xl={13}
                             style={{
                                 backgroundColor: "red",
                                 height: "570px",

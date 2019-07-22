@@ -2,13 +2,13 @@ import React , { Component } from 'react';
 import {Button ,Row, Col, Icon} from 'antd';
 import detailpng from './img/detail.png';
 import Mobile from './img/mobile-screen.png';
+import './css/feature.css';
 
 class Feature extends Component {
     state = {  }
     render() { 
         return ( 
-          
-        <div style={{ backgroundColor: "#5e87fc", height: "835px", padding: "0 120px", color: "#fff", paddingTop: "120px" }}>   
+        <div className="feature" style={{ backgroundColor: "#5e87fc", padding: "0 120px", color: "#fff", paddingTop: "120px" }}>   
             <div style={{ width: 250, margin: "0 auto" }}>
                 <hr />
             </div>
@@ -21,7 +21,7 @@ class Feature extends Component {
             </Row>
             </div>
             <Row style={{ marginTop: "100px" }}>
-                <Col md={8}>
+                <Col md={12} lg={12} xl={8}>
                     <Row>
                         <Col span={24} style={{margin:"25px"}}>
                             <Col span={8}>
@@ -30,7 +30,7 @@ class Feature extends Component {
                                 </div>
                             </Col>
                             <Col span={12}>
-                                <h2 style={{color:"#fff",fontWeight:"bold"}}>Fast & Powerful </h2>
+                                <h2  className="title-feature"style={{color:"#fff",fontWeight:"bold"}}>Fast & Powerful </h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </Col>
                         </Col>
@@ -41,7 +41,7 @@ class Feature extends Component {
                                 </div>
                             </Col>
                             <Col span={12}>
-                                <h2 style={{color:"#fff" , fontWeight:"bold"}}>Fast & Powerful </h2>
+                                <h2  className="title-feature"style={{color:"#fff" , fontWeight:"bold"}}>Fast & Powerful </h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </Col>
                         </Col>
@@ -52,13 +52,13 @@ class Feature extends Component {
                                 </div>
                             </Col>
                             <Col span={12}>
-                                <h2 style={{color:"#fff",fontWeight:"bold"}}>Fast & Powerful </h2>
+                                <h2  className="title-feature"style={{color:"#fff",fontWeight:"bold"}}>Fast & Powerful </h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </Col>
                         </Col>
                     </Row>
                 </Col>
-                <Col xs={0} md={8} style={{ textAlign: "center" }}>
+                <Col xs={0} md={0} lg={0} xl={8} style={{ textAlign: "center" }}>
                     <Row style={{ width: 300, margin: "0 auto" }}>
                         <Col xs={2} sm={4} md={6} lg={8} xl={10}>
                             <div style={{ width: 300 }}>
@@ -79,11 +79,11 @@ class Feature extends Component {
                         </Col>
                     </Row>
                 </Col>
-                <Col md={8} >
+                <Col md={12} lg={12} xl={8} >
                     <Row>
                         <Col span={24} style={{margin:"25px"}}>
                             <Col span={12} >
-                                <h2 style={{color:"#fff", fontWeight:"bold"}}>Fast & Powerful </h2>
+                                <h2  className="title-feature"style={{color:"#fff", fontWeight:"bold"}}>Fast & Powerful </h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </Col>
                             <Col span={8} style={{float:"right"}}> 
@@ -99,7 +99,7 @@ class Feature extends Component {
                                 </div>
                             </Col>
                             <Col span={12}>
-                                <h2 style={{color:"#fff", fontWeight:"bold"}}>Fast & Powerful </h2>
+                                <h2 className="title-feature" style={{color:"#fff", fontWeight:"bold"}}>Fast & Powerful </h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </Col>
                         </Col>
@@ -110,7 +110,7 @@ class Feature extends Component {
                                 </div>
                             </Col>
                             <Col span={12}>
-                                <h2 style={{color:"#fff", fontWeight:"bold"}}>Fast & Powerful </h2>
+                                <h2 className="title-feature" style={{color:"#fff", fontWeight:"bold"}}>Fast & Powerful </h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                             </Col>
                         </Col>
