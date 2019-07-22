@@ -1,5 +1,5 @@
 import React , { Component } from 'react';
-import {Button ,Row, Col, Icon} from 'antd';
+import {Row, Col, Icon} from 'antd';
 import detailpng from './img/detail.png';
 import Mobile from './img/mobile-screen.png';
 

@@ -1,5 +1,5 @@
 import React , { Component } from 'react';
-import {Button,Row, Col, Icon} from 'antd';
+import {Button,Row, Col} from 'antd';
 import MalioboroStreet from './img/malioboro.jpg';
 
 class Progress2 extends Component {

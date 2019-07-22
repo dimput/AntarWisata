@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Icon, Button, Row, Col, Collapse, Input } from 'antd';
 import Mobile from './img/mobile-screen.png';
-import MalioboroStreet from './img/malioboro.jpg';
+// import MalioboroStreet from './img/malioboro.jpg';
 import PlayStoreIcon from './img/hehe.png';
 import splashpng from './img/splash.png';
 import 'react-multi-carousel/lib/styles.css';

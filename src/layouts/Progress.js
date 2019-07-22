@@ -1,5 +1,5 @@
 import React , { Component } from 'react';
-import {Button ,Row, Col, Icon} from 'antd';
+import {Button ,Row, Col} from 'antd';
 import wisatapng from './img/Search.png';
 import MalioboroStreet from './img/malioboro.jpg';
 import Mobile from './img/mobile-screen.png';
