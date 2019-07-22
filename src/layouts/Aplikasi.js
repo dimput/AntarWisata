@@ -1,14 +1,17 @@
-import React , { Component } from 'react';
-import {Button ,Row, Col, Icon} from 'antd';
-import detailpng from './img/detail.png';
+import React, { Component } from 'react';
+import { Button, Row, Col} from 'antd';
+// import home from './img/home1.jpeg';
+// import home2 from './img/home2.jpeg';
+// import home3 from './img/home3.jpeg';
+// import Carousel from 'react-multi-carousel';
 import Mobile from './img/mobile-screen.png';
 
 class Feature extends Component {
-    state = {  }
-    render() { 
-        return ( 
-          
-                <div style={{ backgroundColor: "#5e87fc", minHeight: 570, paddingTop: "100px", paddingBottom: "50px", color: "white" }}>
+    state = {}
+    render() {
+        return (
+
+            <div style={{ backgroundColor: "#5e87fc", minHeight: 570, paddingTop: "100px", paddingBottom: "50px", color: "white" }}>
                 <Row>
                     <Col xs={0} sm={0} md={0} lg={0} xl={11}
                         style={{
@@ -25,14 +28,17 @@ class Feature extends Component {
                                         backgroundRepeat: "no-repeat",
                                         minHeight: 510,
                                         paddingTop: 60,
-                                        paddingLeft: 20,
+                                        paddingRight: 20,
                                         backgroundSize: 250,
                                         marginTop: "-650px",
                                         filter: "drop-shadow(0px 0px 10px rgba(0,0,0,0.2))"
                                     }}>
-                                        <div style={{ backgroundColor: "green", width: 210, minHeight: 380 }}>
-                                            hehe
-            </div>
+                                        <div style={{ width: 1250, height: 380, float: "right" }}>
+
+                                           
+
+
+                                        </div>
                                     </div>
                                 </div>
                             </Col>
@@ -56,10 +62,10 @@ class Feature extends Component {
                     </Col>
                 </Row>
             </div>
-            
-                
-         );
+
+
+        );
     }
 }
- 
+
 export default Feature;

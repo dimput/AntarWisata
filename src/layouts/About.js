@@ -1,5 +1,5 @@
 import React , { Component } from 'react';
-import {Layout ,Row, Col, Icon} from 'antd';
+import {Icon} from 'antd';
 
 class Footers extends Component {
     state = {  }

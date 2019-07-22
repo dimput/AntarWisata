@@ -1,5 +1,5 @@
 import React , { Component } from 'react';
-import {Layout ,Row, Col, Icon} from 'antd';
+import {Layout ,Row, Col} from 'antd';
 import './css/footer.css';
 const { Footer  } = Layout;
 
