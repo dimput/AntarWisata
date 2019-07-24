@@ -1,5 +1,8 @@
 .feature {
     height:835px;
+    padding-top: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 .title-feature{
     font-size: 24px;
@@ -39,6 +42,8 @@
 @media (max-width: 576px) {
     .feature {
         height: 1400px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
     .title-feature{
         font-size: 12px;

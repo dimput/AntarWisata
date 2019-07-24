@@ -3,7 +3,7 @@ import {Button ,Row, Col} from 'antd';
 import wisatapng from './img/Search.png';
 import MalioboroStreet from './img/malioboro.jpg';
 import Mobile from './img/mobile-screen.png';
-
+import './css/wisata.css';
 
 class Progress extends Component {
     state = {  }
@@ -11,11 +11,11 @@ class Progress extends Component {
         return ( 
             <div style={{ backgroundColor: "#f5f6fe", minHeight: 570 }}>
                     <Row>
-                        <Col xs={24} sm={24} md={24} lg={12} xl={11} style={{ paddingLeft: "100px", paddingTop: "120px", paddingRight: "50px" }}>
+                        <Col className="wisata-text" xs={24} sm={24} md={24} lg={12} xl={11} style={{ paddingTop: "120px"}}>
                             <div style={{ fontSize: "18px", fontWeight: "700px" }}>
                                 YUK WISATA !
             </div>
-                            <div style={{ margin: "30px auto", fontSize: "40px" }}>
+                            <div className="wisata-title" style={{ margin: "30px auto"}}>
                                 Berwisata Dengan Kami 
             </div>
                             <div style={{ fontSize: "16px", fontWeight: "300px", lineHeight: "35px" }}>

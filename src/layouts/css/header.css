@@ -4,16 +4,28 @@
 .content-header{
     margin-top: 100;
 }
-@media (max-width: 576px) {
-    .title-header{
-        font-size: 27px;
-    }
-    .content-header{
-        margin-top: 50;
-    }
+.subtitle-header {
+    font-size: 18px;
+}
+.content-header {
+    top: 150px;
 }
 @media (max-width: 992px) {
     .title-header{
         font-size: 36px;
+    }
+}
+@media (max-width: 576px) {
+    .title-header{
+        font-size: 30px;
+    }
+    .content-header {
+        top: 240px;
+    }
+    .content-header{
+        margin-top: 50;
+    }
+    .subtitle-header {
+        font-size: 16px;
     }
 }

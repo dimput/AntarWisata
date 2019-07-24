@@ -1,0 +1,10 @@
+.download {
+    padding-left: 100px;
+    padding-top: 120px;
+    padding-right: 50px;
+}
+@media (max-width:576px) {
+    .download {
+        padding-left: 50px;
+    }
+}

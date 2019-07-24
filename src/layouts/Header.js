@@ -12,7 +12,7 @@ class Header extends Component {
             <div className="isi" style={{ fontSize: "50px", backgroundColor: "black", height: 800, backgroundImage: "url('http://borobudurpark.com/wp-content/uploads/2017/02/borobudur1-1024x683.jpg')", backgroundSize: "cover" }}>
                 <div style={{ width: "100%", height: "100%", backgroundImage: "linear-gradient(45deg, rgba(72,44,191,1) 0%, rgba(106,198,240,1)100%)", opacity: 0.8 }}>
                 </div>
-                <div style={{ position: "absolute", zIndex: "2", top: "150px", width: "100%" }}>
+                <div className="content-header" style={{ position: "absolute", zIndex: "2", width: "100%" }}>
                     <Row>
                         <Col xs={0} sm={0} md={0} lg={0} xl={10}>
                             <div style={{ float: "right", width: 400 }}>
@@ -31,11 +31,11 @@ class Header extends Component {
                             </div>
                         </Col>
                         <Col xs={24} sm={20} md={20} lg={20} xl={12}>
-                            <div style={{ color: "#FFF", marginLeft: 50 }} className="content-header">
+                            <div style={{ color: "#FFF", margin: "0px 25px" }} className="content-header">
                                 <div className="title-header">
                                     Dapatkan Pengalaman Wisata terbaikmu dengan AntarWisata
                                 </div>
-                                <div style={{ fontSize: "18px", marginTop: "35px" }}>
+                                <div className="subtitle-header" style={{ marginTop: "35px" }}>
                                     Temukan surga surga tersembunyi yang tersebar di Daerah Istimewa Yogyakarta. Buatlah pengalaman baru anda di tempat yang belum pernah anda kunjungi. Mulai perjalanan anda sekarang!.
                                 </div>
                                 <Button shape="round" icon="download" size="large" style={{ fontWeight: 700, color: "blue", textTransform: "uppercase", letterSpacing: "3px", fontSize: "14px" }}>

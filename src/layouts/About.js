@@ -1,11 +1,12 @@
 import React , { Component } from 'react';
 import {Icon} from 'antd';
+import './css/about.css';
 
 class Footers extends Component {
     state = {  }
     render() { 
         return ( 
-            <div style={{ marginTop: 220, textAlign: "center" }}>
+            <div id="about" style={{ marginTop: 220, textAlign: "center" }}>
                     <div style={{ fontSize: "50px", color: "blue", marginBottom: "20px" }}>
                         <Icon type="car" theme="filled" />
                     </div>

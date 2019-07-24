@@ -8,7 +8,7 @@ class Feature extends Component {
     state = {  }
     render() { 
         return ( 
-        <div className="feature" style={{ backgroundColor: "#5e87fc", padding: "0 120px", color: "#fff", paddingTop: "120px" }}>   
+        <div className="feature" style={{ backgroundColor: "#5e87fc", color: "#fff"}}>   
             <div style={{ width: 250, margin: "0 auto" }}>
                 <hr />
             </div>
