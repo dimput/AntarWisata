@@ -15,6 +15,7 @@ import DownloadApp from './DownloadApp';
 import ContactUs from './ContactUs';
 import Subscribe from './Subscribe';
 import Faq from './Faq';
+import Penawaran from './Penawaran';
 class Home extends Component {
     state = {}
     render() {
@@ -24,6 +25,12 @@ class Home extends Component {
                 <About />
                 <Progress />
                 <Progress2 />
+
+                <Penawaran />
+
+
+
+
                 <Feature />
                 <Client />
                 <Aplikasi />
