@@ -10,7 +10,7 @@ class Faq extends Component {
     render() { 
         return ( 
           
-            <div style={{ marginTop: "200px", marginBottom: "100px" }}>
+            <div style={{ marginTop: "200px", marginBottom: "50px" }}>
             <div style={{ width: 270, margin: "0 auto", color: "black" }}>
                 <hr />
             </div>
@@ -55,7 +55,6 @@ class Faq extends Component {
                 </Col>
             </Col>
             </Row>
-            <br /><br /><br /><br /><br />
             </div>
             </div>
             
