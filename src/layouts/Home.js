@@ -14,7 +14,7 @@ import Aplikasi from './Aplikasi';
 import DownloadApp from './DownloadApp'; 
 import ContactUs from './ContactUs';
 import Subscribe from './Subscribe';
-import Faq from './css/Faq';
+import Faq from './Faq';
 class Home extends Component {
     state = {}
     render() {

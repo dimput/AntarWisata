@@ -14,14 +14,18 @@ class Faq extends Component {
             <div style={{ width: 270, margin: "0 auto", color: "black" }}>
                 <hr />
             </div>
+           
             <h3 style={{ fontWeight: "700", letterSpacing: "1px", color: "#000", textTransform: "uppercase", backgroundColor: "#fff", width: "180px", margin: "0 auto", marginTop: "-20px", textAlign: "center" }}>
                 FAQ
             </h3>
             <div style={{ marginTop: "20px", marginBottom: "50px", fontSize: "30px", textAlign: "center" }}>
-                <Row>
-                    Frequently Asked Questions
-            </Row>
-            </div>
+                        <Row>
+                            Our Client Loves US
+          </Row>
+                    </div>
+        
+            <div style={{ padding: "0 50px", paddingTop: "50px" }}>
+            <Row>
             <Col span={20} offset={2} style={{ marginBottom: "150px" }}>
                 <Col span={12}>
                     <Collapse accordion>
@@ -50,7 +54,9 @@ class Faq extends Component {
                     </Collapse>
                 </Col>
             </Col>
-            <br /><br /><br /><br /><br /><br /><br /><br />
+            </Row>
+            <br /><br /><br /><br /><br />
+            </div>
             </div>
             
             
