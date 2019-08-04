@@ -16,10 +16,10 @@ class Footers extends Component {
                         </div>
                         <h3 style={{ fontWeight: "700", letterSpacing: "1px", textTransform: "uppercase", backgroundColor: "#FFF", width: "230px", margin: "0 auto", marginTop: "-20px" }}>About Antar Wisata</h3>
                         <div style={{ fontSize: "30px",width:"80%",margin:"0 auto",marginTop: "35px" }}>
-                            Antar Wisata adalah sebuah aplikasi yang membantu perjalananmu berwisata di daerah Yogyakarta.
+                        Aplikasi yang dapat mengubah perjalananmu di kota Yogyakarta menjadi perjalanan istimewa. 
                         </div>
                         <div style={{ width:"80%",margin:"0 auto", marginTop: "35px", marginBottom: "200px", fontSize: "16px"}}>
-                            Menikmati perjalanan dengan modal transportasi berpaket, anti riber, harga sesuai dompet.
+                        Pesan kendaraan dengan mudah, driver akan mengantar sampai tempat tujuan.
                         </div>
                     </div>
                 </div>

@@ -13,11 +13,11 @@ class Feature extends Component {
                 <hr />
             </div>
             <h3 style={{ fontWeight: "700", letterSpacing: "1px", color: "#fff", textTransform: "uppercase", backgroundColor: "#5e87fc", width: "120px", margin: "0 auto", marginTop: "-20px", textAlign: "center" }}>
-                Features
+                FITUR
             </h3>
             <div style={{ marginTop: "20px", marginBottom: "50px", fontSize: "30px", textAlign: "center" }}>
                 <Row>
-                    Powerful Features As Always
+                    Keunggulan Antar Wisata
             </Row>
             </div>
             <Row style={{ marginTop: "100px" }}>
@@ -30,8 +30,8 @@ class Feature extends Component {
                                 </div>
                             </Col>
                             <Col span={12}>
-                                <h2  className="title-feature"style={{color:"#fff",fontWeight:"bold"}}>Fast & Powerful </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <h2  className="title-feature"style={{color:"#fff",fontWeight:"bold"}}>Kemudahan Berwisata</h2>
+                                <p>Pemesanan dilakukan dengan menggunakan aplikasi</p>
                             </Col>
                         </Col>
                         <Col span={24} style={{margin:"25px"}}>
@@ -41,8 +41,8 @@ class Feature extends Component {
                                 </div>
                             </Col>
                             <Col span={12}>
-                                <h2  className="title-feature"style={{color:"#fff" , fontWeight:"bold"}}>Fast & Powerful </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <h2  className="title-feature"style={{color:"#fff" , fontWeight:"bold"}}>Aman dan Terpercaya </h2>
+                                <p>Driver dan kendaraan yang terpilih telah lolos uji kelayakan</p>
                             </Col>
                         </Col>
                         <Col span={24} style={{margin:"25px"}}>
@@ -52,8 +52,8 @@ class Feature extends Component {
                                 </div>
                             </Col>
                             <Col span={12}>
-                                <h2  className="title-feature"style={{color:"#fff",fontWeight:"bold"}}>Fast & Powerful </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <h2  className="title-feature"style={{color:"#fff",fontWeight:"bold"}}>Mudah Diakses </h2>
+                                <p>Pemesan dapat dilakukan dimana saja dan kapan saja </p>
                             </Col>
                         </Col>
                     </Row>
@@ -83,8 +83,9 @@ class Feature extends Component {
                     <Row>
                         <Col span={24} style={{margin:"25px"}}>
                             <Col span={12} >
-                                <h2  className="title-feature"style={{color:"#fff", fontWeight:"bold"}}>Fast & Powerful </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <h2  className="title-feature"style={{color:"#fff", fontWeight:"bold"}}> Harga Terjangkau  </h2>
+                                <p>Penawaran paket yang menarik, pas untuk menghemat pengeluaran 
+	selama berwisata.</p>
                             </Col>
                             <Col span={8} style={{float:"right"}}> 
                                 <div style={{ width: "70px", height: "70px", backgroundColor: "#fff", borderRadius: "100%" , textAlign: "center", fontSize: "25px", paddingTop: "17px"}}>
@@ -99,8 +100,8 @@ class Feature extends Component {
                                 </div>
                             </Col>
                             <Col span={12}>
-                                <h2 className="title-feature" style={{color:"#fff", fontWeight:"bold"}}>Fast & Powerful </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <h2 className="title-feature" style={{color:"#fff", fontWeight:"bold"}}>Info Wisata UpToDate </h2>
+                                <p>Tersedia informasi lengkap destinasi wisata terbaru dan terpercaya</p>
                             </Col>
                         </Col>
                         <Col span={24} style={{margin:"25px"}}> 
@@ -110,8 +111,8 @@ class Feature extends Component {
                                 </div>
                             </Col>
                             <Col span={12}>
-                                <h2 className="title-feature" style={{color:"#fff", fontWeight:"bold"}}>Fast & Powerful </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <h2 className="title-feature" style={{color:"#fff", fontWeight:"bold"}}> Paket Hemat Wisata</h2>
+                                <p>Terdapat rekomendasi wisata dalam paket dengan harga yang menarik</p>
                             </Col>
                         </Col>
                     </Row>

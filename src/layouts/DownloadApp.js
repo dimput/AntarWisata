@@ -44,7 +44,9 @@ class downloadApp extends Component {
                             Download The App
                 </div>
                         <div style={{ fontSize: "16px", fontWeight: "300px", lineHeight: "35px" }}>
-                            Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor incididunt ut labore et laborused sed do eiusmod tempor incididunt ut labore et laborused.
+                        Mulai pengalaman berwisatamu dengan mendownload Antar Wisata.
+Untuk saat ini Antar Wisata baru dapat digunakan pada device Android.
+Kamu dapat menemukan Antar Wisata dengan mendownloadnya pada Playstore..
                 </div>
                         <div style={{ marginTop: "50px" }}>
                             <Button size='large' style={{ textTransform: "uppercase", display: "absolute", borderRadius: "10px", letterSpacing: "2px", padding: "20px 40px", height: "auto", backgroundColor: "#fff", color: "rgba(72,44,191,1)", border: "none", fontWeight: "bold", fontSize: "14px" }}>

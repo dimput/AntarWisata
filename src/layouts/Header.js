@@ -33,10 +33,13 @@ class Header extends Component {
                         <Col xs={24} sm={20} md={20} lg={20} xl={12}>
                             <div style={{ color: "#FFF", margin: "0px 25px" }} className="content-header">
                                 <div className="title-header">
-                                    Dapatkan Pengalaman Wisata terbaikmu dengan AntarWisata
+                                Berwisata jadi lebih menyenangkan dengan AntarWisata
+
                                 </div>
                                 <div className="subtitle-header" style={{ marginTop: "35px" }}>
-                                    Temukan surga surga tersembunyi yang tersebar di Daerah Istimewa Yogyakarta. Buatlah pengalaman baru anda di tempat yang belum pernah anda kunjungi. Mulai perjalanan anda sekarang!.
+                                Istimewanya Kota Yogyakarta, se-istimewa pengalaman kamu pakai 
+                                Antar Wisata. Raih pengalaman luar biasa, temukan surga 
+                                tersembunyi dan abadikan momen kebersamaan. Yuk mulai perjalananmu!
                                 </div>
                                 <Button shape="round" icon="download" size="large" style={{ fontWeight: 700, color: "blue", textTransform: "uppercase", letterSpacing: "3px", fontSize: "14px" }}>
                                     Download App

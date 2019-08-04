@@ -16,16 +16,13 @@ class Progress extends Component {
                                 YUK WISATA !
             </div>
                             <div className="wisata-title" style={{ margin: "30px auto"}}>
-                                Berwisata Dengan Kami 
+                                Berwisata Dengan AntarWisata
             </div>
                             <div style={{ fontSize: "16px", fontWeight: "300px", lineHeight: "35px" }}>
-                                Antar Wisata memudahkanmu untuk mengisi liburan di Yogyakarta, kunjungi berbagai destinasi wisata yang kamu inginkan tanpa memikirkan transportasi dan biaya yang mahal.                   
+                            Yogyakarta memiliki magnet tersendiri bagi wisatawan. Antar Wisata hadir sebagai solusi penyedia transportasi untuk berwisata. 
+                            Temukan penawaran menarik paket wisata yang sesuai dengan kantong anda. Yuk mulai perjalananmu.
             </div>
-                            <div style={{ marginTop: "50px" }}>
-                                <Button size='large' style={{ textTransform: "uppercase", display: "absolute", borderRadius: "50px", letterSpacing: "2px", padding: "20px 40px", height: "auto", backgroundColor: "rgba(72,44,191,1)", color: "#fff", border: "none", fontWeight: "bold", fontSize: "14px" }}>
-                                    Learn More
-              </Button>
-                            </div>
+                           
                         </Col>
                         <Col xs={0} sm={0} md={0} lg={8} xl={13}
                             style={{

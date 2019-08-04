@@ -11,19 +11,16 @@ class Feature extends Component {
             <Row>
                 <Col xs={24} sm={24} md={12} lg={12} xl={12} style={{ paddingLeft: "100px", paddingTop: "120px", paddingRight: "50px" }}>
                                 <div style={{ fontSize: "18px", fontWeight: "700px" }}>
-                                    OUR PROGRESS
+                                    Visi - Misi
                 </div>
                                 <div style={{ margin: "30px auto", fontSize: "40px" }}>
-                                    Grat Application Ever
+                                   Aplikasi Antar Wisata
                 </div>
                                 <div style={{ fontSize: "16px", fontWeight: "300px", lineHeight: "35px" }}>
-                                    Lorem ipsum dolor sit amet, consectetur adipiing elit, sed do eiusmod tempor incididunt ut labore et laborused sed do eiusmod tempor incididunt ut labore et laborused.
+                                Aplikasi wisata yang menemanimu berkunjung tanpa ribet, terjangkau dan pastinya terpercaya. Memberikan pengalaman 
+                                beriwisata yang tak terlupakan selayaknya Yogyakarta.
                 </div>
-                                <div style={{ marginTop: "50px" }}>
-                                    <Button size='large' style={{ textTransform: "uppercase", display: "absolute", borderRadius: "50px", letterSpacing: "2px", padding: "20px 40px", height: "auto", backgroundColor: "rgba(72,44,191,1)", color: "#fff", border: "none", fontWeight: "bold", fontSize: "14px" }}>
-                                        Learn More
-                </Button>
-                                </div>
+                                
                 </Col>
 
 
@@ -33,34 +30,34 @@ class Feature extends Component {
                         <Col span={24} style={{margin:"25px 0px"}}>
                             <Col span={8} >
                                 <div style={{ width: "70px", height: "70px", backgroundColor: "#fff", filter: "drop-shadow(0px 0px 10px rgba(0,0,0,0.2))" ,borderRadius: "100%", textAlign: "center", fontSize: "25px", paddingTop: "17px" , margin:"0px auto"}}>
-                                    <Icon type="rocket" style={{color:"#5e88fc"}}/>
+                                    <Icon type="heart"  style={{color:"#5e88fc"}}/>
                                 </div>
                             </Col>
                             <Col span={12}>
-                                <h2 style={{color:"#8790AF",fontWeight:"bold"}}>Fast & Powerful </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <h2 style={{color:"#8790AF",fontWeight:"bold"}}>Menciptakan Solusi</h2>
+                                <p>Memberikan solusi berwisata yang nyaman dan terpercaya. Supaya para wisatawan dapat terbantu.</p>
                             </Col>
                         </Col>
                         <Col span={24} style={{margin:"25px 0px"}}>
                             <Col span={8}>
                                 <div style={{ width: "70px", height: "70px", backgroundColor: "#fff", filter: "drop-shadow(0px 0px 10px rgba(0,0,0,0.2))", borderRadius: "100%", textAlign: "center", fontSize: "25px", paddingTop: "17px", margin:"0px auto" }}>
-                                    <Icon type="paper-clip" style={{color:"#5e88fc"}} />
+                                <Icon type="team" style={{color:"#5e88fc"}} />
                                 </div>
                             </Col>
                             <Col span={12}>
-                                <h2 style={{color:"#8790AF" , fontWeight:"bold"}}>Fast & Powerful </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <h2 style={{color:"#8790AF" , fontWeight:"bold"}}>Kualitas Berwisata yang Optimal</h2>
+                                <p> Membantu wisatawan mencapai kualitas berwisata yang maksimal tanpa ribet, harga terjangkau dan modern.</p>
                             </Col>
                         </Col>
                         <Col span={24} style={{margin:"25px 0px"}}>
                             <Col span={8}>
-                                <div style={{ width: "70px", height: "70px", backgroundColor: "#fff", filter: "drop-shadow(0px 0px 10px rgba(0,0,0,0.2))" ,  borderRadius: "100%", textAlign: "center", fontSize: "25px", paddingTop: "17px"  , margin:"0px auto"  }}>
-                                    <Icon type="cloud-upload" style={{color:"#5e88fc"}} />
+                                <div style={{ width: "70px", height: "70px", backgroundColor: "#fff", filter: "drop-shadow(0px 0px 10px rgba(0,0,0,0.2))", borderRadius: "100%", textAlign: "center", fontSize: "25px", paddingTop: "17px", margin:"0px auto" }}>
+                                <Icon type="transaction" style={{color:"#5e88fc"}} />
                                 </div>
                             </Col>
                             <Col span={12}>
-                                <h2 style={{color:"#000",fontWeight:"bold"}}>Fast & Powerful </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <h2 style={{color:"#8790AF" , fontWeight:"bold"}}>Menciptakan Lapangan Pekerjaan</h2>
+                                <p> Menciptakan lapangan pekerjaan dan bermanfaat bagi seluruh lapisan masyarakat.</p>
                             </Col>
                         </Col>
                     </Row>

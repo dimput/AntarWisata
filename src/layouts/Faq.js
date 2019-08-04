@@ -20,7 +20,7 @@ class Faq extends Component {
             </h3>
             <div style={{ marginTop: "20px", marginBottom: "50px", fontSize: "30px", textAlign: "center" }}>
                         <Row>
-                            Our Client Loves US
+                            Pertanyaan Mengenai Antar Wisata
           </Row>
                     </div>
         
@@ -29,27 +29,27 @@ class Faq extends Component {
             <Col span={20} offset={2} style={{ marginBottom: "150px" }}>
                 <Col span={12}>
                     <Collapse accordion>
-                        <Panel header="Bagaimana cara mendaftar menjadi driver Antar Wisata?" key="1">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <Panel header="Cara Pemesan di Antar Wisata " key="1">
+                            <p>Untuk pemesanan, kamu harus login dulu ke aplikasi, lalu pilih wisata tujuan yang ingin kamu datangi. checkout dan tunggu admin kami menghubungi mu.</p>
                         </Panel>
-                        <Panel header="Cara menggunakan paket wisata di Antar Wisata" key="2">
-                            <p>Pertanyaan pertama</p>
+                        <Panel header="Batas waktu konfirmasi pemesanan" key="2">
+                            <p>admin kami akan segera memproses pesanan kamu, di tunggu ya </p>
                         </Panel>
-                        <Panel header="Pergi wisata dengan antar wisata dapat diskon ga?" key="3">
-                            <p>Pertanyaan pertama</p>
+                        <Panel header="Kustom paket wisata" key="3">
+                            <p>Untuk saat ini, kami baru menyediakan paket paket wisata yang tidak kalah menarik tentunya.</p>
                         </Panel>
                     </Collapse>
                 </Col>
                 <Col span={12}>
                     <Collapse accordion>
-                        <Panel header="Cara jadi mitra gampang ga si?" key="1">
-                            <p>Pertanyaan pertama</p>
+                        <Panel header="Pembatalan pemesanan" key="1">
+                            <p> nah untuk pembatalan pemesanan, bisa langsung diskusi ke admin ya</p>
                         </Panel>
-                        <Panel header="Kenapa Harus berwisata dengan AntarWisata?" key="2">
-                            <p>Pertanyaan pertama</p>
+                        <Panel header="Bergabung menjadi investor rental" key="2">
+                            <p> jika ingin mendaftarkan rentalan kamu, bisa langsung masuk ke website dan pilih datar, nanti cs kita akan survey ke tempatmu </p>
                         </Panel>
-                        <Panel header="Trip bareng temen seharian bisa ga ya?" key="3">
-                            <p>Pertanyaan pertama</p>
+                        <Panel header=" Mendaftar sebagai pengguna baru" key="3">
+                            <p>tinggal download aplikasi Antar Wisata di PlayStore lalu, mendatar dengan nomor hp atau email, dan login deh. </p>
                         </Panel>
                     </Collapse>
                 </Col>

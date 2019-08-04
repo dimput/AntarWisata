@@ -6,16 +6,16 @@ import 'react-multi-carousel/lib/styles.css';
 import Client from './Client';
 import Header from './Header';
 import About from './About';
-import Progress from './Progress';
-import Progress2 from './Progress2';
-import Progress3 from './Progress3';
+import YukWisata from './YukWisata';
+import Intro from './Intro';
+import VisiMisi from './Visi-misi';
 import Feature from './Feature';
 import Aplikasi from './Aplikasi';
 import DownloadApp from './DownloadApp'; 
 import ContactUs from './ContactUs';
 import Subscribe from './Subscribe';
 import Faq from './Faq';
-import Penawaran from './Penawaran';
+import Blog  from './Blog';
 class Home extends Component {
     state = {}
     render() {
@@ -23,20 +23,15 @@ class Home extends Component {
             <div tyle={{ backgroundColor: "#fff" }}>
                 <Header />
                 <About />
-                <Progress />
-                <Progress2 />
-
-                <Penawaran />
-
-
-
-
+                <YukWisata />
+                <Intro />
+                <VisiMisi />
                 <Feature />
-                <Client />
-                <Aplikasi />
-                <Progress3 />
+                {/* <Aplikasi /> */}
+                <Blog />
                 <DownloadApp/>
                 <Faq/>
+                <Client />
                 <Subscribe/>
                 <ContactUs/>
              </div>

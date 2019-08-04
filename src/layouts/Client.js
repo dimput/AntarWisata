@@ -17,12 +17,12 @@ class Client extends Component {
                         <hr />
                     </div>
                     <h3 style={{ fontWeight: "700", letterSpacing: "1px", color: "#000", textTransform: "uppercase", backgroundColor: "#fff", width: "180px", margin: "0 auto", marginTop: "-20px", textAlign: "center" }}>
-                        TESTIMONIALS
-        </h3>
+                        PENDIRI
+                    </h3>
                     <div style={{ marginTop: "20px", marginBottom: "50px", fontSize: "30px", textAlign: "center" }}>
                         <Row>
-                            Our Client Loves US
-          </Row>
+                           Ini Nih Orang-Orang dibalik AntarWisata
+                        </Row>
                     </div>
                     <div style={{ padding: "0 50px", paddingTop: "50px" }}>
                         <Carousel
@@ -71,48 +71,48 @@ class Client extends Component {
                             swipeable
                         >
                             <div style={{ padding: "20px 30px" }}>
-                                <Avatar src="https://scontent-sin2-1.cdninstagram.com/vp/d47b66a9ca16e774b3833a3f401a355c/5DC9F13B/t51.2885-19/s320x320/49663048_2388353378151304_3957485335864147968_n.jpg?_nc_ht=scontent-sin2-1.cdninstagram.com&_nc_cat=104" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
+                                <Avatar src="https://scontent-sin2-2.cdninstagram.com/vp/835946fc3588a1d19179650a9a439312/5DE5A2DD/t51.2885-15/e35/66711090_642895416221135_4983495138450309453_n.jpg?_nc_ht=scontent-sin2-2.cdninstagram.com&_nc_cat=111" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
                                 <div style={{ backgroundColor: "#FFF", marginTop: "-40px", paddingTop: "50px", paddingLeft: "35px", paddingBottom: "20px", boxShadow: "0 0 30px -5px rgba(0,0,0,.1)" }}>
-                                    <div><h3>Muh Catur Putra</h3></div>
-                                    <div><i>Art Dirrector</i></div>
-                                    <div style={{ marginTop: "10px" }}>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</div>
+                                    <div><h3>Azis Nur Ridwan</h3></div>
+                                    <div><i>App Front End</i></div>
+                                    <div style={{ marginTop: "10px" }}> Tugasnya Mas Ajis itu adalah membuat tampilan yang menarik untuk aplikasi yang kalian jalankan.</div>
                                 </div>
                             </div>
                             <div style={{ padding: "20px 30px" }}>
                                 <Avatar src="https://scontent-sin2-1.cdninstagram.com/vp/8a02ef82c0356e5e87ba5c8ab3843613/5DB3C500/t51.2885-19/s320x320/10890789_1686984951538669_1514833387_a.jpg?_nc_ht=scontent-sin2-1.cdninstagram.com&_nc_cat=101" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
                                 <div style={{ backgroundColor: "#FFF", marginTop: "-40px", paddingTop: "50px", paddingLeft: "35px", paddingBottom: "20px", boxShadow: "0 0 30px -5px rgba(0,0,0,.1)" }}>
-                                    <div><h3>Dimas Saragihsitio</h3></div>
-                                    <div><i>Art Dirrector</i></div>
-                                    <div style={{ marginTop: "10px" }}>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</div>
+                                    <div><h3>Rona Saputra</h3></div>
+                                    <div><i>App Back End</i></div>
+                                    <div style={{ marginTop: "10px" }}>Om Rona bertugas untuk mensingkronkan aplikai yang berjalan dan dapat digunkan seperti saat ini.</div>
                                 </div>
                             </div>
                             <div style={{ padding: "20px 30px" }}>
-                                <Avatar src="https://scontent-sin2-1.cdninstagram.com/vp/9c91ae009f06a76c6cc45bf606904380/5DB9BB65/t51.2885-15/sh0.08/e35/p640x640/59535441_2415699905386003_477437286519901663_n.jpg?_nc_ht=scontent-sin2-1.cdninstagram.com&_nc_cat=107" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
+                                <Avatar src="https://scontent-sin2-2.cdninstagram.com/vp/c3e03524b6ee3f588e34765fdb08470e/5DEA1BBF/t51.2885-15/sh0.08/e35/s640x640/67142561_114964846493983_1086219052937242843_n.jpg?_nc_ht=scontent-sin2-2.cdninstagram.com&_nc_cat=107" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
                                 <div style={{ backgroundColor: "#FFF", marginTop: "-40px", paddingTop: "50px", paddingLeft: "35px", paddingBottom: "20px", boxShadow: "0 0 30px -5px rgba(0,0,0,.1)" }}>
-                                    <div><h3>Evelin Kharisma Sari</h3></div>
-                                    <div><i>Art Dirrector</i></div>
-                                    <div style={{ marginTop: "10px" }}>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</div>
+                                    <div><h3>Siti Zulfiani Khoirunnisa</h3></div>
+                                    <div><i> Sosial Media Marketing </i></div>
+                                    <div style={{ marginTop: "10px" }}> Kalo Mba Zulfi ,Bertugas menjadi admin instagram, yang mempromosikan Antar Wisata, di Follow Ya !</div>
                                 </div>
                             </div><div style={{ padding: "20px 30px" }}>
                                 <Avatar src={Maspanjul} style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
                                 <div style={{ backgroundColor: "#FFF", marginTop: "-40px", paddingTop: "50px", paddingLeft: "35px", paddingBottom: "20px", boxShadow: "0 0 30px -5px rgba(0,0,0,.1)" }}>
-                                    <div><h3>Zulfa Kurniawan Shafyanta</h3></div>
-                                    <div><i>Art Dirrector</i></div>
-                                    <div style={{ marginTop: "10px" }}>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</div>
+                                    <div><h3>Ester Prenatalia Adi</h3></div>
+                                    <div><i>Sosial Media Marketing </i></div>
+                                    <div style={{ marginTop: "10px" }}>Tugasnya Ester ini mempercantik tampilan feed, mempromosikan wisata yang dapat kalian lihat di instagram</div>
                                 </div>
                             </div><div style={{ padding: "20px 30px" }}>
                                 <Avatar src={Dimput} style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
                                 <div style={{ backgroundColor: "#FFF", marginTop: "-40px", paddingTop: "50px", paddingLeft: "35px", paddingBottom: "20px", boxShadow: "0 0 30px -5px rgba(0,0,0,.1)" }}>
                                     <div><h3>Dimas Putra</h3></div>
                                     <div><i>Back End</i></div>
-                                    <div style={{ marginTop: "10px" }}>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</div>
+                                    <div style={{ marginTop: "10px" }}>Mas dimas , merupakan otak dari pengerjaan bagian belakang webiste yang sedang kalian lihat ini</div>
                                 </div>
                             </div><div style={{ padding: "20px 30px" }}>
                                 <Avatar src="https://scontent-sin2-1.cdninstagram.com/vp/0296659797ddae4946dfc7df3ce23262/5DAE17AE/t51.2885-19/s320x320/62144651_393952937874705_8214271605258321920_n.jpg?_nc_ht=scontent-sin2-1.cdninstagram.com&_nc_cat=109" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
                                 <div style={{ backgroundColor: "#FFF", marginTop: "-40px", paddingTop: "50px", paddingLeft: "35px", paddingBottom: "20px", boxShadow: "0 0 30px -5px rgba(0,0,0,.1)" }}>
                                     <div><h3>Mutiara Fitri </h3></div>
                                     <div><i>Front End</i></div>
-                                    <div style={{ marginTop: "10px" }}>Lorem ipsum dolor sit amet, conseg sed do eiusmod temput laborelaborus ed sed do eiusmod tempo.</div>
+                                    <div style={{ marginTop: "10px" }}>Mba Mutiara tugasnya membuat tampilan website menjadi semenarik mungkin untuk kalian lihat.</div>
                                 </div>
                             </div>
                         </Carousel>
