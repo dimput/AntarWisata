@@ -8,6 +8,8 @@ import Portfolio from './layouts/Portfolio';
 import Footers from './layouts/Footers';
 import DaftarForm from './layouts/Daftar';
 import LoginForm from './layouts/Login';
+import Blog from './layouts/Blog';
+import BlogDetail from './layouts/BlogDetails';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/portofolio" component={Portfolio}/>
         <Route path="/login" component={LoginForm}/>
         <Route path="/daftar" component={DaftarForm}/>
+        <Route path="/blog" exact component={Blog}/>
+        <Route path="/blog/:id" component={BlogDetail}/>
       </Switch>
       <Footers/>
     </BrowserRouter>

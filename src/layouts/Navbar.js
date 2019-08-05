@@ -9,7 +9,7 @@ class Navbar extends Component {
     render() {
         return (
             <div>
-                <Header style={{ backgroundColor: "rgba(192,192,192,0.0)", height: "80px", width: "100%", position: "absolute", zIndex: 2 }} className="hide-mobile">
+                <Header style={{ backgroundColor: "rgba(192,192,192,0.0)",position:"fixed", top:"0", height: "80px", width: "100%", position: "absolute", zIndex: 2 }} className="hide-mobile">
                     {/* Logo */}
                     <Col xs={24} sm={17} xl={5}style={{ textAlign: "center" }}>
                         <Link to='.'>
@@ -36,7 +36,7 @@ class Navbar extends Component {
                         >
                             <Menu.Item key="1" style={{ fontSize: "18px", color: "#FFF", fontWeight: 500 }}>Tentang Kami</Menu.Item>
                             <Menu.Item key="2" style={{ fontSize: "18px", color: "#FFF", fontWeight: 500 }}>Layanan</Menu.Item>
-                            <Menu.Item key="3" style={{ fontSize: "18px", color: "#FFF", fontWeight: 500 }}>Blog</Menu.Item>
+                            <Menu.Item key="3" style={{ fontSize: "18px", color: "#FFF", fontWeight: 500 }}><Link to="/blog">Blog</Link></Menu.Item>
                             <Menu.Item key="4" style={{ fontSize: "18px", color: "#FFF", fontWeight: 500 }}>FAQ</Menu.Item>
                             <Menu.Item key="5" style={{ fontSize: "18px", color: "#FFF", fontWeight: 500 }}>Kontak Kami</Menu.Item>
                         </Menu>
