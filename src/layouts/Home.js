@@ -15,10 +15,12 @@ import DownloadApp from './DownloadApp';
 import ContactUs from './ContactUs';
 import Subscribe from './Subscribe';
 import Faq from './Faq';
-import Blog  from './Blog';
+import Blogs  from './Blogs';
+
 class Home extends Component {
     state = {}
     render() {
+     
         return (
             <div tyle={{ backgroundColor: "#fff" }}>
                 <Header />
@@ -28,7 +30,7 @@ class Home extends Component {
                 <VisiMisi />
                 <Feature />
                 {/* <Aplikasi /> */}
-                <Blog />
+                <Blogs />
                 <DownloadApp/>
                 <Faq/>
                 <Client />

@@ -1,7 +1,7 @@
 import React , { Component } from 'react';
 import {Button,Row, Col} from 'antd';
 import MalioboroStreet from './img/malioboro.jpg';
-import vidio from './img/videoplayback.mp4';
+import vidio from './img/vidio.mp4';
 import cover from './img/cover.jpeg';
 import './css/progress2.css';
 import "../../node_modules/video-react/dist/video-react.css"; 
