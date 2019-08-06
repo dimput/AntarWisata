@@ -1,7 +1,7 @@
 
 
 import React, { Component } from 'react';
-import { Avatar, Row, Button } from 'antd';
+import { Avatar, Row, Button, Col } from 'antd';
 import { Link } from "react-router-dom";
 import axios from 'axios';
 import Maspanjul from './img/maspanjul.PNG';
@@ -21,18 +21,29 @@ function PromoTable(props) {
     // }
 
     return (
-        <tr key={user.id.toString()}>
-
-            {/* <th scope="row"><Link to={userLink}>{user.id}</Link></th> */}
-            {/* <td><Link to={userLink}>{user.nama}</Link></td> */}
-            <td>{user.id}</td>
+        // <tr >
+            <Row key={user.id.toString()} style={{marginTop:"50px"}}>
+                <Col lg={8}>
+                    <img src={user.image} width="100%" height="170px" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "-20px", zIndex: -99 }}></img>
+                </Col>
+                <Col lg={16}>
+                    <div style={{fontSize:"24px"}}><Link to={"blog/" + ((user.id) - 1).toString()}><strong>{user.judul}</strong></Link></div>
+                    <br/>
+                    <div style={{fontSize:"16px"}}>Author: {user.author}</div>
+                    <br/>
+                    <div style={{fontSize:"16px"}}><i>{user.date}</i></div>
+                </Col>
+            </Row>
+            /* <th scope="row"><Link to={userLink}>{user.id}</Link></th> */
+            /* <td><Link to={userLink}>{user.nama}</Link></td> *
+            /* <td>{user.id}</td>
             <td><Link to={"blog/" + ((user.id) - 1).toString()}>{user.judul}</Link></td>
             <td>{user.author}</td>
             <td>{user.date}</td>
-            <td><Link to={"edit/" + ((user.id) - 1).toString()}><Button color="primary">Edit</Button></Link></td>
+            <td><Link to={"edit/" + ((user.id) - 1).toString()}><Button color="primary">Edit</Button></Link></td> */
 
-            {/* <td><Link to={userLink}><Badge color={getBadge(user.status)}>{user.status}</Badge></Link></td> */}
-        </tr>
+            /* <td><Link to={userLink}><Badge color={getBadge(user.status)}>{user.status}</Badge></Link></td> */
+        // </tr>
     )
 }
 
@@ -57,28 +68,22 @@ class Blog extends Component {
             )
         }
     }
+    getImage() {
+        if (this.state.personku) {
+            return this.state.personku.image
+        }
+    }
     render() {
         return (
 
 
             <div style={{ paddingTop: "130px", marginBottom: "100px" }}>
                 <div style={{ backgroundImage: "linear-gradient(45deg, rgba(72,44,191,1) 0%, rgba(106,198,240,1)100%)", width: "100%", height: 80, position: "absolute", top: "0px" }}></div>
+                <div style={{ width: "80%", margin: "0 auto", fontSize:"36px", textAlign:"center" }}><strong>Blogs</strong></div>
                 <div style={{ width: "80%", margin: "0 auto" }}>
-                    <table responsive hover>
-                        <thead>
-                            <tr>
-                                <th scope="col">Id</th>
-                                <th scope="col">Judul</th>
-                                <th scope="col">Author</th>
-                                {/* {/* <th scope="col">role</th> */}
-                                <th scope="col">Tanggal</th>
-                                <th scope="col">Aksi</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {this.getIsi()}
-                        </tbody>
-                    </table>
+                    <div style={{width:"100%"}}>
+                    {this.getIsi()}
+                    </div>
                 </div>
                 <div style={{ width: 270, margin: "0 auto", color: "black" }}>
                     <hr />
