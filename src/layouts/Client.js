@@ -79,7 +79,7 @@ class Client extends Component {
                                 </div>
                             </div>
                             <div style={{ padding: "20px 30px" }}>
-                                <Avatar src="https://scontent-sin2-1.cdninstagram.com/vp/8a02ef82c0356e5e87ba5c8ab3843613/5DB3C500/t51.2885-19/s320x320/10890789_1686984951538669_1514833387_a.jpg?_nc_ht=scontent-sin2-1.cdninstagram.com&_nc_cat=101" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
+                                <Avatar src="https://scontent-sin2-2.cdninstagram.com/vp/b98aef1d5e3aff74cd549ece2e82a511/5DD2AAC2/t51.2885-19/s150x150/60457485_1053349771524832_2767316491886919680_n.jpg?_nc_ht=scontent-sin2-2.cdninstagram.com&_nc_cat=104" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
                                 <div style={{ backgroundColor: "#FFF", marginTop: "-40px", paddingTop: "50px", paddingLeft: "35px", paddingBottom: "20px", boxShadow: "0 0 30px -5px rgba(0,0,0,.1)" }}>
                                     <div><h3>Rona Saputra</h3></div>
                                     <div><i>App Back End</i></div>
@@ -94,7 +94,7 @@ class Client extends Component {
                                     <div style={{ marginTop: "10px" }}> Kalo Mba Zulfi ,Bertugas menjadi admin instagram, yang mempromosikan Antar Wisata, di Follow Ya !</div>
                                 </div>
                             </div><div style={{ padding: "20px 30px" }}>
-                                <Avatar src={Maspanjul} style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
+                                <Avatar src="https://scontent-sin2-2.cdninstagram.com/vp/71fbe275737e0bf10c2aaad0376e051f/5DE4938B/t51.2885-19/s150x150/56171761_386447801942028_1062951504647815168_n.jpg?_nc_ht=scontent-sin2-2.cdninstagram.com&_nc_cat=100" style={{ backgroundColor: "#FFF", boxShadow: "0 0 10px 0 rgba(0,0,0,.1)", marginLeft: "30px", height: "80px", width: "80px", border: "6px solid white" }} />
                                 <div style={{ backgroundColor: "#FFF", marginTop: "-40px", paddingTop: "50px", paddingLeft: "35px", paddingBottom: "20px", boxShadow: "0 0 30px -5px rgba(0,0,0,.1)" }}>
                                     <div><h3>Ester Prenatalia Adi</h3></div>
                                     <div><i>Sosial Media Marketing </i></div>
