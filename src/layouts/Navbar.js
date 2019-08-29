@@ -44,7 +44,7 @@ class Navbar extends Component {
                     <Col xs={0} sm={7}>
                         <Link to="../login">
                             <Button size='large' style={{ float: "right", display: "absolute", top: "15px", borderRadius: "50px", padding: "10px 30px", height: "auto", backgroundColor: "rgba(255,255,255,0.4)", color: "rgba(255,255,255,1)", border: "none", fontWeight: "bold", fontSize: "20px" }}>
-                                Daftar Driver
+                                Daftar Agent
                     </Button>
                         </Link>
                     </Col>
